@@ -6,7 +6,7 @@
 // tree, read text, and verify that the values of widget properties are correct.
 
 
-
+import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:flutter/material.dart';
 
 
@@ -59,88 +59,114 @@ Widget build(BuildContext context) {
             // padding: EdgeInsets.all(5),
             color: Colors.red,
             child: Center(
+
+              
               child: GridView(
               shrinkWrap: true,
               physics: NeverScrollableScrollPhysics(),
   gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
     crossAxisCount: 3,
-    mainAxisSpacing: 10,
-    crossAxisSpacing: 10,   
+    mainAxisSpacing: 5,
+    crossAxisSpacing: 5,   
     childAspectRatio: (1 / 0.8),
     
   ),
   
   children: [
     Padding(
-padding: const EdgeInsets.all(10),
-child: Container( color: Colors.blue,
+padding: const EdgeInsets.all(5),
+child: Container( color: Colors.grey,
 child: 
 
-  Image.network('https://picsum.photos/250?image=1'), padding: EdgeInsets.all(5),
+  Image.network('https://picsum.photos/250?image=1'), padding: EdgeInsets.all(3),
     ),
     ),
    Padding(
-padding: const EdgeInsets.all(10),
-child: Container( color: Colors.blue,
+padding: const EdgeInsets.all(5),
+child: Container( color: Colors.grey,
 child: 
 
-  Image.network('https://picsum.photos/250?image=1'), padding: EdgeInsets.all(5),
+  Image.network('https://picsum.photos/250?image=1'), padding: EdgeInsets.all(3),
     ),
     ),
     Padding(
-padding: const EdgeInsets.all(10),
-child: Container( color: Colors.blue,
+padding: const EdgeInsets.all(5),
+child: Container( color: Colors.grey,
 child: 
 
-  Image.network('https://picsum.photos/250?image=1'), padding: EdgeInsets.all(5),
+  Image.network('https://picsum.photos/250?image=1'), padding: EdgeInsets.all(3),
     ),
     ),
     Padding(
-padding: const EdgeInsets.all(10),
-child: Container( color: Colors.blue,
+padding: const EdgeInsets.all(5),
+child: Container( color: Colors.grey,
 child: 
 
-  Image.network('https://picsum.photos/250?image=1'), padding: EdgeInsets.all(5),
+  Image.network('https://picsum.photos/250?image=1'), padding: EdgeInsets.all(3),
     ),
     ),
     Padding(
-padding: const EdgeInsets.all(10),
-child: Container( color: Colors.blue,
+padding: const EdgeInsets.all(5),
+child: Container( color: Colors.grey,
 child: 
 
-  Image.network('https://picsum.photos/250?image=1'), padding: EdgeInsets.all(5),
+  Image.network('https://picsum.photos/250?image=1'), padding: EdgeInsets.all(3),
     ),
     ),
     Padding(
-padding: const EdgeInsets.all(10),
-child: Container( color: Colors.blue,
+padding: const EdgeInsets.all(5),
+child: Container( color: Colors.grey,
 child: 
 
-  Image.network('https://picsum.photos/250?image=1'), padding: EdgeInsets.all(5),
+  Image.network('https://picsum.photos/250?image=1'), padding: EdgeInsets.all(3),
     ),
     ),
     Padding(
-padding: const EdgeInsets.all(10),
-child: Container( color: Colors.blue,
+padding: const EdgeInsets.all(5),
+child: Container( color: Colors.grey,
 child: 
 
-  Image.network('https://picsum.photos/250?image=1'), padding: EdgeInsets.all(5),
+  Image.network('https://picsum.photos/250?image=1'), padding: EdgeInsets.all(3),
     ),
     ),
     Padding(
-padding: const EdgeInsets.all(10),
-child: Container( color: Colors.blue,
+padding: const EdgeInsets.all(5),
+child: Container( color: Colors.grey,
 child: 
 
-  Image.network('https://picsum.photos/250?image=1'), padding: EdgeInsets.all(5),
+  Image.network('https://picsum.photos/250?image=1'), padding: EdgeInsets.all(3),
     ),
     ),
     Padding(
-padding: const EdgeInsets.all(10),
-child: Container( color: Colors.blue,
+padding: const EdgeInsets.all(5),
+child: Container( color: Colors.grey,
 child: 
 
-  Image.network('https://picsum.photos/250?image=1'), padding: EdgeInsets.all(5),
+  Image.network('https://picsum.photos/250?image=1'), padding: EdgeInsets.all(3),
+    ),
+    ),
+        Padding(
+padding: const EdgeInsets.all(5),
+child: Container( color: Colors.grey,
+child: 
+
+  Image.network('https://picsum.photos/250?image=1'), padding: EdgeInsets.all(3),
+    ),
+    ),
+        Padding(
+padding: const EdgeInsets.all(5),
+child: Container( color: Colors.grey,
+child: 
+
+  Image.network('https://picsum.photos/250?image=1'), padding: EdgeInsets.all(3),
+    ),
+    ),
+        Padding(
+padding: const EdgeInsets.all(5),
+child: Container( color: Colors.grey,
+child: 
+
+  Image.network('https://picsum.photos/250?image=1'), padding: EdgeInsets.all(3),
     ),
     ),
          
